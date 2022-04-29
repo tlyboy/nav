@@ -1,1 +1,3 @@
-# JavaScript-导航栏
+# js-nav
+
+简单导航栏
