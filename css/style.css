@@ -1,0 +1,32 @@
+ul {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 0 30px 1px rgba(52, 152, 219, 0.3);
+}
+
+ul li {
+  padding: 20px 40px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+ul li:hover {
+  border-radius: 20px;
+  background: rgb(52, 152, 219, 0.5);
+}
+
+ul .checked {
+  border-radius: 20px;
+  background: rgb(52, 152, 219, 0.8);
+  color: #ecf0f1;
+}
+
+ul .checked:hover {
+  border-radius: 20px;
+  background: rgb(52, 152, 219, 0.8);
+  color: #ecf0f1;
+}
