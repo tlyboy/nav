@@ -1,9 +1,14 @@
-let ul = document.querySelector('ul')
-let lis = ul.querySelectorAll('li')
+const ul = document.querySelector('ul')
 
-ul.addEventListener('click', e => {
-  for (let i = 0; i < lis.length; i++) {
-    lis[i].className = ''
+if (ul) {
+  const lis = ul.querySelectorAll('li')
+
+  if (lis) {
+    ul.addEventListener('click', e => {
+      for (let i = 0; i < lis.length; i++) {
+        lis[i].className = ''
+      }
+      e.target.className = 'checked'
+    })
   }
-  e.target.className = 'checked'
-})
+}
