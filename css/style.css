@@ -4,7 +4,7 @@ ul {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background: #ffffff;
+  background: var(--t-bg);
   box-shadow: 0 0 30px 1px rgba(52, 152, 219, 0.3);
   list-style: none;
 }
@@ -23,11 +23,11 @@ ul li:hover {
 ul .checked {
   border-radius: 20px;
   background: rgb(52, 152, 219, 0.8);
-  color: var(--background);
+  color: var(--t-bg);
 }
 
 ul .checked:hover {
   border-radius: 20px;
   background: rgb(52, 152, 219, 0.8);
-  color: var(--background);
+  color: var(--t-bg);
 }

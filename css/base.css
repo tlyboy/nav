@@ -1,6 +1,11 @@
 :root {
-  --color: #2c3e50;
-  --background: #ecf0f1;
+  --t-white: #ffffff;
+  --t-black: #1a1a1a;
+}
+
+:root {
+  --t-text: var(--t-black);
+  --t-bg: var(--t-white);
 }
 
 *,
@@ -20,9 +25,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: var(--background);
+  background: #ecf0f1;
   font-family: 'Source Han Sans SC VF', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: var(--color);
+  color: var(--t-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
