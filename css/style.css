@@ -1,10 +1,12 @@
 ul {
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
   border-radius: 20px;
   background: var(--t-bg);
+  overflow: hidden;
   box-shadow: 0 0 30px 1px rgba(52, 152, 219, 0.3);
   list-style: none;
 }
